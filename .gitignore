@@ -1,4 +1,5 @@
-.csv
+zillow_dataset.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
