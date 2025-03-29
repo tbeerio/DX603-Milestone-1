@@ -1,5 +1,5 @@
 zillow_dataset.csv
-
+.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -175,3 +175,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+df_info.csv
