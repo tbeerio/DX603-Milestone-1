@@ -1,0 +1,56 @@
+Feature,Data Type,Missing (%),Unique Values,description,Preliminary Assessment
+buildingclasstypeid,float64,99.9806733408063,2,"The building framing type (steel frame, wood frame, concrete/brick) ",Likely Drop (Too Many Missing)
+finishedsquarefeet13,float64,99.94588535425765,13,Perimeter  living area,Likely Drop (Too Many Missing)
+storytypeid,float64,99.93557780268769,1," Type of floors in a multi-story house (i.e. basement and main level, split-level, attic, etc.).  See tab for details.",Likely Drop (Too Many Missing)
+basementsqft,float64,99.93557780268769,43, Finished living area below or partially below ground level,Likely Drop (Too Many Missing)
+yardbuildingsqft26,float64,99.90980892376277,59,Storage shed/building in yard,Likely Drop (Too Many Missing)
+fireplaceflag,object,99.77838764124567,1, Is a fireplace present in this home ,Likely Drop (Too Many Missing)
+architecturalstyletypeid,float64,99.73329210312706,5," Architectural style of the home (i.e. ranch, colonial, split-level, etc…)",Likely Drop (Too Many Missing)
+typeconstructiontypeid,float64,99.71267699998711,4, What type of construction material was used to construct the home,Likely Drop (Too Many Missing)
+finishedsquarefeet6,float64,99.502660636749,350,Base unfinished and finished area,Likely Drop (Too Many Missing)
+pooltypeid10,float64,99.40087356499555,1, Spa or Hot Tub,Likely Drop (Too Many Missing)
+decktypeid,float64,99.20889541700488,1,Type of deck (if any) present on parcel,Likely Drop (Too Many Missing)
+poolsizesum,float64,98.88034221071213,262, Total square footage of all pools on property,Likely Drop (Too Many Missing)
+pooltypeid2,float64,98.61621120173167,1, Pool with Spa/Hot Tub,Likely Drop (Too Many Missing)
+hashottuborspa,object,98.01708476672722,1, Does the home have a hot tub or spa,Likely Drop (Too Many Missing)
+yardbuildingsqft17,float64,96.91675363663303,540,Patio in  yard,Likely Drop (Too Many Missing)
+taxdelinquencyflag,object,96.26351255588625,1,Property taxes for this parcel are past due as of 2015,Likely Drop (Too Many Missing)
+taxdelinquencyyear,float64,96.26351255588625,13,Year for which the unpaid propert taxes were due ,Likely Drop (Too Many Missing)
+finishedsquarefeet15,float64,96.09988017471301,1724,Total area,Likely Drop (Too Many Missing)
+finishedsquarefeet50,float64,92.22166389651218,1807, Size of the finished living area on the first (entry) floor of the home,Likely Drop (Too Many Missing)
+finishedfloor1squarefeet,float64,92.22166389651218,1787, Size of the finished living area on the first (entry) floor of the home,Likely Drop (Too Many Missing)
+fireplacecnt,float64,89.32008812956592,5, Number of fireplaces in a home (if any),Likely Drop (Too Many Missing)
+threequarterbathnbr,float64,86.97898547923673,4, Number of 3/4 bathrooms in house (shower + sink + toilet),Likely Drop (Too Many Missing)
+pooltypeid7,float64,80.57155373455478,1, Pool without hot tub,Likely Drop (Too Many Missing)
+poolcnt,float64,79.16070761341528,1, Number of pools on the lot (if any),Drop (No Variance)
+numberofstories,float64,77.32467499001456,4, Number of stories or levels the home has,Keep/Investigate
+airconditioningtypeid,float64,67.77988223622332,5, Type of cooling system present in the home (if any),Keep/Investigate
+garagetotalsqft,float64,67.11891049179906,839, Total number of square feet of all garages on lot including an attached garage,Keep/Investigate
+garagecarcnt,float64,67.11891049179906,14, Total number of garages on the lot including an attached garage,Keep/Investigate
+regionidneighborhood,float64,60.09173720897273,480,Neighborhood in which the property is located,Keep/Investigate
+heatingorsystemtypeid,float64,36.13054514063366,10, Type of home heating system,Keep/Investigate
+buildingqualitytypeid,float64,35.82389548142708,12, Overall assessment of condition of the building from best (lowest) to worst (highest),Keep/Investigate
+propertyzoningdesc,object,34.96450336928092,1907, Description of the allowed land uses (zoning) for that property,Keep/Investigate
+unitcnt,float64,34.672026593483054,8," Number of units the structure is built into (i.e. 2 = duplex, 3 = triplex, etc...)",Keep/Investigate
+lotsizesquarefeet,float64,10.683777202272815,18848, Area of the lot in square feet,Keep/Investigate
+finishedsquarefeet12,float64,4.754358161648177,4868,Finished living area,Keep/Investigate
+regionidcity,float64,1.9403965830466545,175, City in which the property is located (if any),Keep/Investigate
+fullbathcnt,float64,0.837488565059977,13," Number of full bathrooms (sink, shower + bathtub, and toilet) present in home",Keep/Investigate
+calculatedbathnbr,float64,0.837488565059977,21, Number of bathrooms in home including fractional bathroom,Keep/Investigate
+yearbuilt,float64,0.39168695965882006,136, The Year the principal residence was built ,Keep/Investigate
+censustractandblock,float64,0.3620527488951593,39006, Census tract and block ID combined - also contains blockgroup assignment by extension,Keep/Investigate
+calculatedfinishedsquarefeet,float64,0.3027843273678379,4972, Calculated total finished living area of the home ,Keep/Investigate
+regionidzip,float64,0.10822929148467395,389, Zip code in which the property is located,Keep/Investigate
+taxvaluedollarcnt,float64,0.045095538118614144,50949,The total tax assessed value of the parcel,Target
+roomcnt,float64,0.04380709417236803,16, Total number of rooms in the principal residence,Keep/Investigate
+regionidcounty,float64,0.04380709417236803,3,County in which the property is located,Keep/Investigate
+rawcensustractandblock,float64,0.04380709417236803,39188, Census tract and block ID combined - also contains blockgroup assignment by extension,Keep/Investigate
+propertylandusetypeid,float64,0.04380709417236803,13, Type of land use the property is zoned for,Keep/Investigate
+propertycountylandusecode,object,0.04380709417236803,75, County land use code i.e. it's zoning at the county level,Keep/Investigate
+longitude,float64,0.04380709417236803,62461, Longitude of the middle of the parcel multiplied by 10e6,Keep/Investigate
+latitude,float64,0.04380709417236803,64038, Latitude of the middle of the parcel multiplied by 10e6,Keep/Investigate
+assessmentyear,float64,0.04380709417236803,1,The year of the property tax assessment ,Drop (No Variance)
+fips,float64,0.04380709417236803,3, Federal Information Processing Standard code -  see https://en.wikipedia.org/wiki/FIPS_county_code for more details,Keep/Investigate
+bedroomcnt,float64,0.04380709417236803,16, Number of bedrooms in home ,Keep/Investigate
+bathroomcnt,float64,0.04380709417236803,22, Number of bathrooms in home including fractional bathrooms,Keep/Investigate
+parcelid,int64,0.0,77414, Unique identifier for parcels (lots) ,Keep/Investigate
